@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="Lab1.css" rel="stylesheet">
+    <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        </style>
+</head>
+<body style="padding-top: 25px; background-color: #2700A3">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar bg-dark fixed-top">
+        <a style="color:white" class="navbar-brand" href="#">PORTFOLIO</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">PROJECT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">CONTACT</a>
+          </li>
+        </ul>
+    </nav>
+
+      <!-- Main content -->
+      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div class="container-fluid pt-2 p-4"></div>
+        <div id="section1" class="container-fluid pt-4 p-4 my-3" style="background-color: #F07C2B">
+            <h1 id="scrollspyHeading1" style="font-weight: bold;">PROJECT</h1>
+
+            <div class="container">
+                <!-- heading text -->
+                <ul class="image-gallery">
+                  <li>
+                    <img src="Handwritten.webp" alt="" />
+                    <div style="font-size: 23px; font-weight: bold;" class="overlay"><span>Handwritten digit recognition</span></div>
+                  </li>
+                  <li>
+                    <img src="Tumor.webp" alt="" />
+                    <div style="font-size: 23px; font-weight: bold;" class="overlay"><span>Tumor classification</span></div>
+                  </li>
+                  <li>
+                    <img src="Covid.jpg" alt="" />
+                    <div style="font-size: 23px; font-weight: bold;" class="overlay"><span>Covid prediction</span></div>
+                  </li>
+                </ul>
+                <div><br></div>
+                <ul class="image-gallery">
+                    <li>
+                      <img src="NLP.webp" alt="" />
+                      <div style="font-size: 23px; font-weight: bold;" class="overlay"><span>NLP</span></div>
+                    </li>
+                    <li>
+                      <img src="SB.png" alt="" />
+                      <div style="font-size: 23px; font-weight: bold;" class="overlay"><span>Stable diffusion</span></div>
+                    </li>
+                    <li>
+                      <img src="CV.jpg" alt="" />
+                      <div style="font-size: 23px; font-weight: bold;" class="overlay"><span>Computer vision</span></div>
+                    </li>
+                  </ul>
+              </div>
+        </div> 
+        <div id="section1" class="container-fluid pt-4 p-4 my-3" style="background-color: #F07C2B">
+            <h1 id="scrollspyHeading2" style="font-weight: bold;">ABOUT</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <img style="max-width: 80%;" src="Me.JPG" class="img-thumbnail" alt="Me">
+                    <h3>Nguyen Manh Dan</h3>
+                </div>
+                <div class="col-sm" style="font-size: 22px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Rhoncus est pellentesque elit ullamcorper dignissim cras. Maecenas ultricies mi eget mauris. Dignissim enim sit amet venenatis urna cursus.<br>
+                    Dignissim enim sit amet venenatis urna cursus eget. Suscipit tellus mauris a diam. Massa sed elementum tempus egestas sed sed. Nunc vel risus commodo viverra maecenas accumsan lacus vel. Placerat orci nulla pellentesque dignissim enim sit amet. Magna etiam tempor orci eu lobortis elementum nibh.<br>
+                    A scelerisque purus semper eget duis at tellus at. Ut velit scelerisque in dictum. Ultrices vitae auctor eu augue ut. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Quis commodo odio aenean sed adipiscing diam. Sodales ut eu sem integer vitae justo eget magna fermentum. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Lobortis elementum nibh tellus molestie nunc non.
+                </div>
+                <div class="col-sm" style="font-size: 22px;">
+                    Nunc id cursus metus aliquam eleifend mi in nulla. Massa enim nec dui nunc mattis enim. Nunc aliquet bibendum enim facilisis gravida. Turpis cursus in hac habitasse platea dictumst quisque. Est velit egestas dui id ornare arcu odio ut sem.<br>
+                    Volutpat blandit aliquam etiam erat velit. Metus aliquam eleifend mi in nulla posuere. Adipiscing vitae proin sagittis nisl. Erat nam at lectus urna duis convallis convallis tellus. Id eu nisl nunc mi. Est ultricies integer quis auctor elit sed vulputate mi. Nam aliquam sem et tortor consequat id porta. Vitae turpis massa sed elementum tempus egestas sed sed risus. Ac turpis egestas maecenas pharetra convallis posuere morbi leo.
+                </div>
+              </div>
+        </div> 
+        <div id="section1" class="container-fluid pt-4 p-4 my-3" style="background-color: #F07C2B">
+            <h1 id="scrollspyHeading3" style="font-weight: bold;">CONTACT</h1>
+            <div class="row">
+                <h3>Info</h3>
+                <h5><i class="fa fa-envelope" style="font-size:24px"></i> dan.nguyensvbk20@hcmut.edu.vn</h5>
+                <h5><i class="fa fa-phone" style="font-size:24px"></i> 0903816584</h5>
+
+            </div>
+            <div class="row">
+                <div class="col social-buttons">
+                <h3>Social Links</h3>
+                <a class="btn btn-social text-white btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                <a class="btn btn-social text-white btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                <a class="btn btn-social text-white btn-github"><i class="fa fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      <footer class="bg-dark text-center text-lg-start">
+        <div class="text-center p-3" style="color:white">
+          © 2022 Copyright: Nguyen Manh Dan
+        </div>
+      </footer>
+</body>
+</html> 

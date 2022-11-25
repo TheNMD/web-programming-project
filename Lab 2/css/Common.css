@@ -1,0 +1,54 @@
+body {
+  background-color: #F0EAD6;
+  padding-top: 50px; 
+}
+
+#navbar {
+  background-color:#5daa68;
+}
+
+#navbar a {
+  color: #faf1cf;
+  font-weight: bold;
+}
+
+#ftr {
+  font-weight: bold;
+  color: #faf1cf;
+  background-color: #5daa68;
+}
+
+#intro div {
+  font-size: x-large;
+  font-weight: bold;
+  color: #315336;
+}
+
+#about {
+  color: #315336;
+}
+  
+#about h1 {
+  font-weight: bold;
+}
+  
+#about div div {
+  font-size: 18px;
+}
+
+.card.text-center {
+  width: 24rem;
+  border-width: 1px;
+  border-color: #315336;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #315336;
+}
+
+#card_button {
+  font-weight: bold;
+  color: #315336;
+  background-color: #5daa68;
+}
